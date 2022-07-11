@@ -4,11 +4,11 @@ import "./index.css";
 import "./assets/styles/locomotive-scroll.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { ParallaxProvider } from "react-scroll-parallax";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
+    <div className="absolute w-12 h-12 bg-white rounded right-12 bottom-12"></div>
   </React.StrictMode>
 );
 

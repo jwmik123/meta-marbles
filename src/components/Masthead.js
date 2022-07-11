@@ -1,5 +1,3 @@
-import { Parallax } from "react-scroll-parallax";
-
 import marble1 from "../assets/marblebrown.png";
 import marble2 from "../assets/galaxy-marble.jpeg";
 
@@ -9,11 +7,7 @@ const Masthead = () => {
       <p className="absolute left-0 top-0 text-white font-medium text-md md:text-xl">
         Planets for in your pockets.
       </p>
-      <h1
-        data-aos="fade-up"
-        data-aos-duration="500"
-        className="flex flex-col text-white text-6xl lg:text-[200px] font-display lg:leading-[160px]"
-      >
+      <h1 className="flex flex-col text-white text-6xl lg:text-[200px] font-display lg:leading-[160px]">
         Meta <span className="ml-8 lg:ml-28 -z-20">Marbles.</span>
       </h1>
       <button className="absolute bottom-0 right-0 bg-white py-2 px-6 text-md md:text-lg rounded-sm">
@@ -29,13 +23,13 @@ const Masthead = () => {
       </div>
       <div
         data-scroll
-        data-scroll-speed="4"
-        className="absolute right-0 top-2 -z-30"
+        data-scroll-speed="-4"
+        className="absolute -right-[300px] top-2 -z-30"
       >
         <img
           src={marble2}
           alt="meta marble"
-          className="hidden md:block w-72 lg:w-[500px]"
+          className="hidden md:block w-72 lg:w-[800px]"
         />
       </div>
     </section>

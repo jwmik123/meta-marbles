@@ -7,7 +7,7 @@ const Navigation = () => {
       <h1 className="font-bold">Meta Marbles.</h1>
       <nav>
         <ul className="gap-12 hidden md:flex">
-          <li className="uppercase">Home</li>
+          <li className="uppercase">Home </li>
           <li className="uppercase">Collection</li>
           <li className="uppercase">About</li>
         </ul>
