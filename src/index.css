@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display"),
+    url(../public/fonts/PlayfairDisplay-VariableFont_wght.ttf)
+      format("truetype");
+}
+
 body {
   margin: 0;
   background-color: black;
