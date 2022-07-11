@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
-    <div className="absolute w-12 h-12 bg-white rounded right-12 bottom-12"></div>
+    <div className="absolute w-12 h-12 bg-white rounded right-12 bottom-12 hover:cursor-pointer"></div>
   </React.StrictMode>
 );
 

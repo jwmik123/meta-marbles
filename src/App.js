@@ -8,6 +8,8 @@ import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import Navigation from "./components/Navigation";
 import Masthead from "./components/Masthead";
 import About from "./components/About";
+import Team from "./components/Team";
+import Footer from "./components/Footer";
 
 function App() {
   useEffect(() => {
@@ -33,6 +35,8 @@ function App() {
         <Navigation />
         <Masthead />
         <About />
+        <Team />
+        <Footer />
       </div>
     </LocomotiveScrollProvider>
   );

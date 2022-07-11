@@ -2,7 +2,13 @@ import blackhole from "../assets/blackhole.jpeg";
 
 export const About = () => {
   return (
-    <section className="min-h-[800px] px-12 lg:px-44 my-80 text-white">
+    <section
+      data-scroll
+      data-scroll-delay="0.6"
+      data-scroll-speed="4"
+      data-scroll-position="top"
+      className="min-h-[400px] px-12 lg:px-44 my-80 text-white"
+    >
       <h1 className="text-6xl text-center font-display mb-12">
         So, what are Meta Marbles?
       </h1>
