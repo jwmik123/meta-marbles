@@ -7,7 +7,7 @@ export const Team = () => {
         in NFT's. We also believe that the technology behind Web3 is the
         frontier of a new generation.
       </p>
-      <div className="grid gap-4 grid-cols-2 mt-12">
+      <div className="grid gap-4 grid-cols-3 mt-12">
         <div className="flex col-span-2">
           <div className="bg-[#181818] pl-8 py-8">
             <h3 className="text-4xl">Kev</h3>
@@ -18,10 +18,7 @@ export const Team = () => {
             <button>Twitter</button>
           </div>
         </div>
-        {/* <div className="flex flex-col col-span-1">
-          <div className="h-full">
-            <img src={teamMember} alt="" />
-          </div>
+        <div className="flex flex-col col-span-1 row-span-2">
           <div className="bg-[#181818] pl-8 py-8">
             <h3 className="text-4xl">Kev</h3>
             <p className="text-md text-gray-400">
@@ -30,7 +27,7 @@ export const Team = () => {
             </p>
             <button>Twitter</button>
           </div>
-        </div> */}
+        </div>
         <div className="flex col-span-2">
           <div className="bg-[#181818] pl-8 py-8">
             <h3 className="text-4xl">Kev</h3>

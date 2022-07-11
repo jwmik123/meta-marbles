@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+
 import "./index.css";
 import "./assets/styles/locomotive-scroll.css";
 import App from "./App";
@@ -8,7 +9,9 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
-    <div className="absolute w-12 h-12 bg-white rounded right-12 bottom-12 hover:cursor-pointer"></div>
+    <div className="absolute flex justify-center items-center w-12 h-12 bg-white rounded right-12 bottom-12 hover:cursor-pointer">
+      UP
+    </div>
   </React.StrictMode>
 );
 
