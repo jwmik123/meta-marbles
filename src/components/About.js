@@ -3,10 +3,9 @@ import blackhole from "../assets/blackhole.jpeg";
 export const About = () => {
   return (
     <section
-      data-scroll
-      data-scroll-delay="0.6"
-      data-scroll-speed="4"
-      data-scroll-position="top"
+      // data-scroll
+      // data-scroll-delay="1"
+      // data-scroll-speed="4"
       className="min-h-[400px] px-12 lg:px-44 my-80 text-white"
     >
       <h1 className="text-6xl text-center font-display mb-12">

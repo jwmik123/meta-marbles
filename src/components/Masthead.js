@@ -3,7 +3,7 @@ import marble2 from "../assets/galaxy-marble.jpeg";
 
 const Masthead = () => {
   return (
-    <section className="relative flex justify-center h-[300px] lg:h-[550px] items-center">
+    <section className="relative flex justify-center h-[300px] lg:h-[550px] items-center  mx-8 md:mx-12 lg:mx-24">
       <p className="absolute left-0 top-0 text-white font-medium text-md md:text-xl">
         Planets for in your pocket.
       </p>

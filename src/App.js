@@ -25,7 +25,7 @@ function App() {
       containerRef={containerRef}
     >
       <div
-        className="App mx-8 md:mx-12 lg:mx-24"
+        className="App"
         data-aos-easing="ease"
         data-aos-duration="100"
         data-aos-delay="0"
