@@ -18,7 +18,7 @@ const Navigation = () => {
           role="navigation"
           className="flex justify-between py-12 text-slate-100 mx-8 md:mx-12 lg:mx-24 z-30"
         >
-          <h1 className="font-bold">Meta Marbles.</h1>
+          <h1 className="font-oswald font-bold text-xl">Meta Marbles.</h1>
           <nav className="hidden md:block">
             <ul className="gap-12 flex">
               <li className="uppercase">Home </li>

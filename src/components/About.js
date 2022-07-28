@@ -1,5 +1,3 @@
-import blackhole from "../assets/blackhole.jpeg";
-
 export const About = () => {
   return (
     <section
@@ -8,36 +6,21 @@ export const About = () => {
       // data-scroll-speed="4"
       className="min-h-[400px] px-12 lg:px-44 my-80 text-white"
     >
-      <h1 className="text-6xl text-center font-display mb-12">
+      <h1 className="text-6xl text-center font-oswald mb-12">
         So, what are Meta Marbles?
       </h1>
       <div className="flex gap-12 flex-col lg:flex-row">
-        <div className="flex flex-col justify-between text-lg">
-          <p className="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-            pariatur accusantium itaque culpa saepe cum tempora ex veritatis,
-            voluptatem autem esse mollitia labore provident enim incidunt nulla
-            aliquam, doloremque doloribus.
+        <div className="flex flex-col justify-between text-xl">
+          <p className="text-center">
+            MetaMarbles is a collection of spheres with each an unique
+            appearance. Their sizes are immeasurable and their use is limitless.
+            They are located somewhere in the Milky Way and are floating in deep
+            space, until they are discovered and collected by you.
+            <br />
+            <br />
+            If all the MetaMarbles are discovered, a portal will open back to
+            their own world.
           </p>
-          <p className="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-            pariatur accusantium itaque culpa saepe cum tempora ex veritatis,
-            voluptatem autem esse mollitia labore provident enim incidunt nulla
-            aliquam, doloremque doloribus.
-          </p>
-          <p className="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-            pariatur accusantium itaque culpa saepe cum tempora ex veritatis,
-            voluptatem autem esse mollitia labore provident enim incidunt nulla
-            aliquam, doloremque doloribus.
-          </p>
-        </div>
-        <div>
-          <img
-            className="w-full h-full overflow-hidden"
-            src={blackhole}
-            alt="meta marble"
-          />
         </div>
       </div>
     </section>

@@ -1,57 +1,21 @@
 export const Team = () => {
   return (
     <section
-      data-scroll
-      data-scroll-speed="6"
+      // data-scroll
+      // data-scroll-speed="6"
       className="min-h-[400px] px-12 lg:px-44 my-80 text-white"
     >
-      <h1 className="text-6xl text-center font-display mb-12">The Team</h1>
+      <h1 className="font-oswald text-6xl text-center mb-12">The Team.</h1>
       <p className="text-center text-xl">
         We are highly motivated group of human beings - who do not only believe
-        in NFT's. We also believe that the technology behind Web3 is the
+        in NFT&apos;s. We also believe that the technology behind Web3 is the
         frontier of a new generation.
       </p>
-      <div className="grid gap-4 grid-cols-4 mt-12">
-        <div className="flex col-span-2">
-          <div className="bg-[#181818] pl-8 py-8">
-            <h3 className="text-4xl">Kev</h3>
-            <p className="text-md text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-              explicabo, dicta voluptates delectus ad facere optio corporis ex.
-            </p>
-            <button>Twitter</button>
-          </div>
-        </div>
-        <div className="flex col-span-2">
-          <div className="bg-[#181818] pl-8 py-8">
-            <h3 className="text-4xl">Kev</h3>
-            <p className="text-md text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-              explicabo, dicta voluptates delectus ad facere optio corporis ex.
-            </p>
-            <button>Twitter</button>
-          </div>
-        </div>
-        <div className="flex col-span-2">
-          <div className="bg-[#181818] pl-8 py-8">
-            <h3 className="text-4xl">Kev</h3>
-            <p className="text-md text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-              explicabo, dicta voluptates delectus ad facere optio corporis ex.
-            </p>
-            <button>Twitter</button>
-          </div>
-        </div>
-        <div className="flex col-span-2">
-          <div className="bg-[#181818] pl-8 py-8">
-            <h3 className="text-4xl">Kev</h3>
-            <p className="text-md text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-              explicabo, dicta voluptates delectus ad facere optio corporis ex.
-            </p>
-            <button>Twitter</button>
-          </div>
-        </div>
+      <div className="grid gap-4 grid-cols-3 mt-12">
+        <div className="col-span-2 team-item"></div>
+        <div className="team-item"></div>
+        <div className="team-item"></div>
+        <div className="col-span-2 team-item"></div>
       </div>
     </section>
   );

@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: "Oswald";
+  src: local("Oswald"),
+  url(../public/fonts/Oswald-VariableFont_wght.ttf)
+  format("truetype");
+}
+
 @font-face {
   font-family: "Playfair Display";
   src: local("Playfair Display"),
@@ -9,21 +17,30 @@
       format("truetype");
 }
 
-body {
-  margin: 0;
-  background-color: black;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+@layer base {
+  body {
+    margin: 0;
+    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, "Press Start 2P", "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+  }
+
+  ::selection {
+    background-color: rgba(147, 10, 239, 0.7);
+  }
+
 }
 
-::selection {
-  background-color: rgba(147, 10, 239, 0.7);
+@layer components {
+  .team-item {
+    @apply bg-white/90 h-[320px] rounded;
+  }
 }

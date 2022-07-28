@@ -7,7 +7,7 @@ const Masthead = () => {
       <p className="absolute left-0 top-0 text-white font-medium text-md md:text-xl">
         Planets for in your pocket.
       </p>
-      <h1 className="flex flex-col text-white text-6xl font-medium lg:text-[200px] font-display lg:leading-[160px]">
+      <h1 className="flex flex-col font-oswald text-white text-6xl font-medium lg:text-[200px] lg:leading-[160px]">
         Meta <span className="ml-8 lg:ml-28 -z-20">Marbles.</span>
       </h1>
       <button className="absolute bottom-0 right-0 bg-white py-2 px-6 text-md md:text-lg rounded-sm">
