@@ -43,4 +43,12 @@
   .team-item {
     @apply bg-white/90 h-[320px] overflow-hidden rounded;
   }
+
+  .faq-item {
+    @apply w-full text-white;
+  }
+
+  .row-title-text {
+    @apply font-medium text-2xl;
+  }
 }

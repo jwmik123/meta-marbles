@@ -10,6 +10,7 @@ import Masthead from "./components/Masthead";
 import About from "./components/About";
 import Team from "./components/Team";
 import Footer from "./components/Footer";
+import Faq from "./components/Faq";
 
 function App() {
   useEffect(() => {
@@ -36,6 +37,7 @@ function App() {
         <Masthead />
         <About />
         <Team />
+        <Faq />
         <Footer />
       </div>
     </LocomotiveScrollProvider>
