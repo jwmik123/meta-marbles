@@ -9,9 +9,6 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
-    <div className="absolute flex justify-center items-center w-12 h-12 bg-white rounded right-12 bottom-12 hover:cursor-pointer">
-      UP
-    </div>
   </React.StrictMode>
 );
 
