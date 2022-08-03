@@ -4,7 +4,7 @@ export const About = () => {
       // data-scroll
       // data-scroll-delay="1"
       // data-scroll-speed="4"
-      className="min-h-[400px] px-12 lg:px-44 my-80 text-white"
+      className="min-h-[400px] px-12 lg:px-44 mt-80 mb-40 text-white"
     >
       <h1 className="text-6xl text-center font-oswald mb-12">
         So, what are Meta Marbles?

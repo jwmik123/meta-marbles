@@ -6,7 +6,7 @@ export const Team = () => {
     <section
       // data-scroll
       // data-scroll-speed="6"
-      className="min-h-[400px] px-12 lg:px-44 my-80 text-white"
+      className="min-h-[400px] px-12 lg:px-44 my-40 text-white"
     >
       <h1 className="font-oswald text-6xl text-center mb-12">The Team.</h1>
       <p className="text-center text-xl">

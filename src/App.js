@@ -11,6 +11,7 @@ import About from "./components/About";
 import Team from "./components/Team";
 import Footer from "./components/Footer";
 import Faq from "./components/Faq";
+import Roadmap from "./components/Roadmap";
 
 function App() {
   useEffect(() => {
@@ -36,6 +37,7 @@ function App() {
         <Navigation />
         <Masthead />
         <About />
+        <Roadmap />
         <Team />
         <Faq />
         <Footer />

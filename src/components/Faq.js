@@ -55,7 +55,7 @@ const FaqComponent = () => {
   };
 
   return (
-    <section className="min-h-[400px] px-12 lg:px-44 my-80 text-white">
+    <section className="min-h-[400px] px-12 lg:px-44 my-40 text-white">
       <h1 className="font-oswald text-6xl text-center mb-12">
         Frequently Asked Questions.
       </h1>
