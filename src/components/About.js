@@ -1,10 +1,10 @@
 export const About = () => {
   return (
     <section
-      // data-scroll
-      // data-scroll-delay="1"
-      // data-scroll-speed="4"
-      className="min-h-[400px] px-12 lg:px-44 mt-80 mb-40 text-white"
+      data-scroll
+      data-scroll-delay="1"
+      data-scroll-speed="3"
+      className="min-h-[300px] px-12 lg:px-44 mt-80 mb-20 text-white"
     >
       <h1 className="text-6xl text-center font-oswald mb-12">
         So, what are Meta Marbles?

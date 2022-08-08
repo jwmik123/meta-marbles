@@ -11,7 +11,7 @@ const Masthead = () => {
         Meta <span className="ml-8 lg:ml-28 -z-20">Marbles.</span>
       </h1>
       <button className="absolute bottom-0 right-0 bg-white py-2 px-6 text-md md:text-lg rounded-sm">
-        <strong>Mint</strong>: 16th of August 2022
+        <strong>Mint</strong>: 1st of September 2022
       </button>
 
       <div

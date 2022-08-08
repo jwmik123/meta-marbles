@@ -3,7 +3,12 @@ import { Timeline, Event } from "react-timeline-scribble";
 
 const Roadmap = () => {
   return (
-    <section className="min-h-[400px] py-6 md:py-12 px-12 lg:px-44 my-40 bg-white">
+    <section
+      data-scroll
+      data-scroll-delay="1"
+      data-scroll-speed="2"
+      className="min-h-[400px] py-6 md:py-12 px-12 lg:px-44 my-40 bg-white"
+    >
       <h1 className="font-oswald text-6xl text-center mb-12">Roadmap.</h1>
       <Fragment>
         <Timeline>

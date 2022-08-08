@@ -4,8 +4,9 @@ import jalla from "../assets/jalla.png";
 export const Team = () => {
   return (
     <section
-      // data-scroll
-      // data-scroll-speed="6"
+      data-scroll
+      data-scroll-delay="1"
+      data-scroll-speed="2"
       className="min-h-[400px] px-12 lg:px-44 my-40 text-white"
     >
       <h1 className="font-oswald text-6xl text-center mb-12">The Team.</h1>

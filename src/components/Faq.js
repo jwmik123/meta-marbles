@@ -30,13 +30,14 @@ const FaqComponent = () => {
         title: (
           <h3 className="text-2xl font-medium">Will there be a whitelist?</h3>
         ),
-        content: "No. Fair game for everyone",
+        content: "No.",
       },
       {
         title: (
           <h3 className="text-2xl font-medium">What will be the mint price?</h3>
         ),
-        content: "Mint price will be 1.5 SOL.",
+        content:
+          "Mint price will be at 1 SOL for pre sale and 1.5 SOL on regular launch.",
       },
     ],
   };
@@ -55,7 +56,12 @@ const FaqComponent = () => {
   };
 
   return (
-    <section className="min-h-[400px] px-12 lg:px-44 my-40 text-white">
+    <section
+      data-scroll
+      data-scroll-delay="1"
+      data-scroll-speed="2"
+      className="min-h-[400px] px-12 lg:px-44 my-40 text-white"
+    >
       <h1 className="font-oswald text-6xl text-center mb-12">
         Frequently Asked Questions.
       </h1>
