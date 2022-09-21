@@ -26,21 +26,23 @@ function App() {
       watch={[]}
       containerRef={containerRef}
     >
-      <div
-        className="App"
-        data-aos-easing="ease"
-        data-aos-duration="100"
-        data-aos-delay="0"
-        data-scroll-container
-        ref={containerRef}
-      >
-        <Navigation />
-        <Masthead />
-        <About />
-        <Roadmap />
-        <Team />
-        <Faq />
-        <Footer />
+      <div className="flex justify-center">
+        <div
+          className="App max-w-screen-2xl"
+          data-aos-easing="ease"
+          data-aos-duration="100"
+          data-aos-delay="0"
+          data-scroll-container
+          ref={containerRef}
+        >
+          <Navigation />
+          <Masthead />
+          <About />
+          <Roadmap />
+          <Team />
+          <Faq />
+          <Footer />
+        </div>
       </div>
     </LocomotiveScrollProvider>
   );
